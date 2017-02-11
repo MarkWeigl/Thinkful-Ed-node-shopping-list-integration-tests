@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: f4232192-c6a9-4cb5-9d0b-00d5c869770f
-  app: boiling-dusk-42943.git
+  app: fierce-lowlands-18566
   on:
     repo: MarkWeigl/Thinkful-Ed-node-shopping-list-integration-tests

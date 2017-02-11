@@ -12,9 +12,9 @@ app.use(morgan('common'));
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html');
-});
+// app.get('/', (req, res) => {
+//   res.sendFile(__dirname + '/views/index.html');
+// });
 
 
 // when requests come into `/shopping-list` or
